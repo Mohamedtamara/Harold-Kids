@@ -11,13 +11,13 @@ In the average case, each successive partition will split the array into groups 
 # Methodology
 
 # Time Measures
-Length 100: 0.04 milliseconds
-Length 1000: 0.06 milliseconds
-Length 10000: 0.82 milliseconds
-Length 100000: 12.06 milliseconds
-Length 500000: 101.62 milliseconds
-Length 1000000: 341.9 milliseconds
-https://www.desmos.com/calculator/fp0xqusvjw
+Length 100: 0.04 milliseconds  
+Length 1000: 0.06 milliseconds  
+Length 10000: 0.82 milliseconds  
+Length 100000: 12.06 milliseconds  
+Length 500000: 101.62 milliseconds  
+Length 1000000: 341.9 milliseconds  
+https://www.desmos.com/calculator/fp0xqusvjw  
 From this graph, you can see that our data roughly follows an nlogn curve. In the graph shown, the x axis represents the length of the array, while the y axis represents the time in milliseconds.
 
 # Pivot Selection and Data Arrangement
